@@ -1,0 +1,27 @@
+/* css related to reports and publication  */
+
+.row_margin_manager {
+  margin-top: 2%;
+}
+.btn_publish {
+  width: 50vw;
+}
+
+.textarea_report {
+  overflow-y: scroll;
+}
+
+.searchbar_report {
+  width: 50vw !important;
+}
+
+/* ###########report generation table css  */
+.report_generation_table td {
+  overflow: hidden;
+}
+.report_generation_table th {
+  overflow: hidden;
+}
+.errors {
+  background-color: chocolate;
+}

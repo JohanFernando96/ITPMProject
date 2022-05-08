@@ -1,0 +1,158 @@
+InventoryHeading {
+  color: #0b7c0b;
+  text-align: center;
+}
+
+
+
+.table-div{
+   font-size: 125%;
+  white-space: nowrap;
+  margin: 0;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow-x: auto;
+}
+.tableinv table{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+  white-space: nowrap;
+  margin: 0;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: auto;
+  }
+
+  .fixreport{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+  white-space: nowrap;
+  margin: 0;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: auto;
+  }
+ 
+  
+  .tableinv table td, .tableinv table th {
+    border: 1px solid black;
+  padding: 0.5rem 1rem;
+  }
+  
+ #tableinv table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tableinv table tr:hover {background-color: #ddd;}
+  
+  #tableinv table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #tableinv #edit_btn{
+    color: white;
+    background-color: #04AA6D;
+    border: 2px solid #04AA6D;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom:5px;
+  }
+
+  #tableinv #delete_btn{
+    color: #04AA6D;
+    background-color: #f1f1f1;
+    border: 2px solid #04AA6D;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 5px;
+  }
+
+  #tableinv #heading2 {
+   margin: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-decoration-line:none;
+    color: #04AA6D;
+  }
+  #tableinv #heading2:before,
+  #tableinv #heading2:after {
+  background-color: #000;
+  content: "   ";
+  display: inline-block;
+  height: 2.5px;
+  position: relative;
+  vertical-align: middle;
+  width: 35%;
+}
+
+#formadd{
+  margin-left: 10%;
+    height: 300px; 
+    width:80%;
+    overflow: auto;
+}
+
+#formadd input{
+  margin: 1%;
+}
+
+.tableinv table thead th {
+  padding: 3px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 25vw;
+  background: white;
+}
+.tableinv table td {
+  background: #fff;
+  padding: 4px 5px;
+  text-align: center;
+}
+
+.tableinv table tbody th {
+  font-weight: 100;
+  font-style: italic;
+  text-align: left;
+  position: relative;
+}
+.tableinv table thead th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+.tableinv table tbody th {
+  position: sticky;
+  left: 0;
+  background: white;
+  z-index: 1;
+}
+.fix {
+  text-align: left;
+  padding: 0.25rem;
+  position: sticky;
+  left: 0;
+  background-color: white;
+}
+
+[role="region"][aria-labelledby][tabindex] {
+  width: 100%;
+  max-height: 98vh;
+  overflow: auto;
+}
+[role="region"][aria-labelledby][tabindex]:focus {
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  outline: 0;
+}

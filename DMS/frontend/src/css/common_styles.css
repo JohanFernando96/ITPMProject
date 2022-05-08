@@ -1,0 +1,169 @@
+* {
+  font-family: Segoe UI, "Tahoma", Geneva, Verdana, sans-serif;
+}
+body {
+  overflow: scroll;
+  flex-direction: column;
+}
+.homepage_body {
+  margin: 0px;
+}
+
+.minimum-height {
+  min-height: 55vh;
+}
+
+.content {
+  min-height: 350px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.margin_10 {
+  margin-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #007dfe;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*############# organization name and image ###########*/
+.org_logo {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.org_name {
+  /* font-family: Impact; */
+  font-size: 3.5vw;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bolder;
+  overflow-x: hidden;
+}
+
+/* ############## navbar css ############### */
+
+.navbarcontainer {
+  background-color: #007dfe;
+  color: white;
+}
+.navbar {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  
+}
+
+ul > li > a {
+  color: white !important;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-item{
+  margin-left: 40px;
+}
+.dropdown-menu {
+  background-color: #007dfe;
+  /*#4275f5*/
+  border: none;
+  color: white;
+}
+
+.toogle_button {
+  position: absolute;
+  top: -65px;
+  /* top:-20%; */
+  right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+/* ########  Homepage css ######## */
+
+.homepage_images {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.homepage_content_div {
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.about_content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.aboutus_titles {
+  text-align: center;
+  font-weight: bolder;
+  justify-content: center;
+}
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: black;
+  height: 1px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* ########### footer ########*/
+
+.footer {
+  margin-top: 2vh;
+  padding-top: 5px;
+  background-color: #007dfe;
+}
+
+.footer p {
+  text-align: center;
+  color: #ffff;
+}
+
+.socialwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.socialwrapper a {
+  color: none;
+}
+
+.fa {
+  padding: 0 10px;
+}
+
+.fa-facebook-official {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-twitter-square {
+  color: white;
+}
