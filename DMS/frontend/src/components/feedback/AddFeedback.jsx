@@ -118,7 +118,7 @@ const validateFeedbackForm = () => {
            fontSize: "2.5rem",
            fontWeight: "600",
          }}>
-           Add Donation
+           Enter Your Feedback
       </Typography>
       <FormControl>
         <InputLabel>Name</InputLabel>

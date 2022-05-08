@@ -1,4 +1,4 @@
-import Feedback from '../model/feedbacks.model.js';
+import Feedback from '../model/feedbacks.mode.js';
 
 // Get all feedbacks
 export const getFeedbacks = async (request, response) => {
